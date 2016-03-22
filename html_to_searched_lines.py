@@ -1,6 +1,6 @@
 import os
 from bs4 import BeautifulSoup
-import re
+
 
 def read_input_file(path):
     f = open(path)
