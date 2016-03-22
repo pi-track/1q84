@@ -1,0 +1,12 @@
+coffee
+ramen
+vegetable
+eggs
+meat
+soy
+cheese
+butter
+apple
+roll
+sauce
+miso
