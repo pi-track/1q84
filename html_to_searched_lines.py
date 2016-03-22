@@ -19,7 +19,7 @@ def html_parser_p(index_list):
     them to a directory called 'html_parsed' '''
     for title in index_list:
         content = read_input_file(str("html_index/{0}".format(title)))
-        print(content)# - check if i got the info
+        #print(content) - check if i got the info
         soup = BeautifulSoup(content, "html.parser")
         outfile_name = "html_parsed/{0}".format(title)
         outfile = open(outfile_name, "w") #TODO - put them in the same line?
